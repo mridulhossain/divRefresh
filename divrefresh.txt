@@ -1,0 +1,9 @@
+$(document).ready(function() {
+
+//    var id =  $('#chatTable').data('id')
+    //  $("#chatTable").load('../WorkerMessanger/'+id);
+     setInterval(function() {
+     $("#chatTable").load(location.href + " #chatTable");
+     }, 1000);
+
+});
